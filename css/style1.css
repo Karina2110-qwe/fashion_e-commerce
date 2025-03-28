@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: DM Sans-Medium;
+    src: url(../font/DM_Sans/DMSans-Medium.ttf);
+}
+@font-face{
+    font-family: DM Sans-Regular;
+    src: url(../font/DM_Sans/DMSans-Regular.ttf);
+}
+@font-face {
+    font-family: Abril_Fatface;
+    src: url(../font/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+@font-face{
+    font-family: DM Sans-Bold;
+    src: url(../font/DM_Sans/DMSans-Bold.ttf);
+}
+.container {
+    width: 1440px;  
+    height: 100vh;
+}
+.header {
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.oglavlenie {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: DM Sans-Regular;
+    color:#555555;
+    margin: 33px 0 0 90px;
+}
+.circle {
+    width: 3px; 
+    height: 3px;
+    background: #999999;
+    border-radius: 50%;
+    margin: 0 24px;
+}
+.header_logo {
+    display: flex;
+    align-items: center;
+    color: #202023;
+    font-size: 16px;
+    font-family: DM Sans-Medium;
+    margin: 31px 440.6px 0 319.5px;
+}
+.header_logo_img {
+    margin-right: 9.9px;
+}
+.group {
+    display: flex;
+    align-items: center;
+    margin: 37px 99.3px 0 0;
+}
+.group2 {
+    margin: 0 36px 0 36px;
+}
+.block_main1 {
+    display: flex;
+}
+.brand {
+    width: 430.03px;
+    height: 231px;
+    font-size: 70px;
+    font-family: Abril_Fatface;
+    color: #202023;
+    margin: 133px 0 69px 90px;
+    background-image: url(../img/Vector1.png);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position: top 105px right 0;
+}
+.shopping {
+    color: #979EA9;
+    font-size: 16px;
+    font-family: DM Sans-Regular;
+    margin-left: 26px;
+}
+.main {
+    display: grid;    
+}
+.main_img {
+    border-left: solid 2px #202023;
+    margin-left: 90px;
+}
+.main_img1 {
+    margin: 50px 0 0 26px;
+}
+.main_img2 {
+    margin: 0 40px 0 40px;
+}
+.nike_img {
+    margin: 109px 0 0 69px;
+}
+.nike_txt {
+    font-size: 24px;
+    font-family: Abril_Fatface;
+    margin: 11px 0 0 91px;
+}
+.pink_tshirt {
+    margin-top: 31px;
+}
+.glasses {
+    margin: 400px 0 0 54px;
+}
+.glasses_txt {
+    font-family: Abril_Fatface;
+    font-size: 24px;
+    color: #202023;
+    margin: 26px 0 0 54px;
+}
+.glasses_ul {
+    font-family: DM Sans-Regular;
+    font-size: 14px;
+    color: #979EA9;
+    line-height: 23.8px;
+    margin: 24px 0 32px 54px
+}
+.a{
+    font-family: DM Sans-Regular;
+    font-size: 15px;
+    color: #EC5A33; 
+    margin-left: 54px;
+    text-decoration: none;
+    border-bottom: 1px solid #EC5A33;
+}
+.block_main2 {
+    display: flex;
+}
+.new_collection_txt {
+    font-family: Abril_Fatface;
+    font-size: 40px;
+    margin: 120px 0 0 555px;
+}
+.block4 {
+    display: flex;
+    width: 574px;
+    height: 292px;
+    background: linear-gradient(0deg, #F4F4F6, #F4F4F6), url(image.png), linear-gradient(101.52deg, #FDF7F7 5.82%, #FFFBFC 101.34%);
+    margin: 40px 0 0 130px;
+}
+.pic1_txt {
+    font-family: DM Sans-Regular;
+    font-size: 32px;
+    margin: 68px 0 0 40px;
+    position: absolute;
+}
+.pic1_img  {
+    margin: 24px 0 0 238px;
+    position: absolute;
+}
+.price {
+    font-family: DM Sans-Medium;
+    font-size: 20px;
+    margin: 168px 0 0 40px ;
+    color: #838A95;
+}
+.block5 {
+    width: 574px;
+    height: 292px;
+    background: linear-gradient(0deg, #F4F4F6, #F4F4F6), url(image.png), linear-gradient(101.52deg, #FDF7F7 5.82%, #FFFBFC 101.34%);
+    margin: 32px 0 0 130px;
+}
+.pic2_txt1 {
+    font-family: DM Sans-Medium;
+    font-size: 32px;
+    margin: 57px 0 0 40px;
+    position: absolute;
+}
+.pic2_txt2 {
+    font-family: DM Sans-Medium;
+    font-size: 20px;
+    margin: 157px 0 0 40px;
+    position: absolute;
+    color: #838A95;
+}
+.pic2_txt3 {
+    font-family: DM Sans-Regular;
+    font-size: 16px;
+    margin: 203px 0 0 40px;
+    position: absolute;
+    color: #838A95;
+}
+.pic2_img {
+    margin: 10px 0 0 232px;
+    position: absolute;
+}
+.block6 {
+    width: 574px;
+    height: 292px;
+    background: linear-gradient(0deg, #F4F4F6, #F4F4F6), url(image.png), linear-gradient(101.52deg, #FDF7F7 5.82%, #FFFBFC 101.34%);
+    margin: 40px 0 0 32px;
+}
+.pic3_txt1 {
+    font-family: DM Sans-Medium;
+    font-size: 32px;
+    margin: 68px 0 0 40px;
+    position: absolute;
+}
+.pic3_txt2 {
+    font-family: DM Sans-Regular;
+    font-size: 16px;
+    margin: 168px 0 0 40px;
+    position: absolute;
+    color: #838A95;
+}
+.pic3_img {
+    margin: 24px 0 0 247px;
+    position: absolute;
+}
+.block7 {
+    width: 574px;
+    height: 292px;
+    background: linear-gradient(0deg, #F4F4F6, #F4F4F6), url(image.png), linear-gradient(101.52deg, #FDF7F7 5.82%, #FFFBFC 101.34%);
+    margin: 32px 0 0 32px;
+}
+.pic4_txt1 {
+    font-family: DM Sans-Medium;
+    font-size: 32px;
+    margin: 67px 0 0 40px;
+    position: absolute;
+}
+.pic4_txt2 {
+    font-family: DM Sans-Regular;
+    font-size: 16px;
+    margin: 167px 0 0 40px;
+    position: absolute;
+    color: #838A95;
+}
+.pic4_txt3 {
+    font-family: DM Sans-Medium;
+    font-size: 20px;
+    margin: 203px 0 0 40px;
+    position: absolute;
+    color: #838A95;
+}
+.pic4_img {
+    margin: 10px 0 0 230px;
+    position: absolute;
+}
+.category {
+    font-family: Abril_Fatface;
+    font-size: 45px;
+    margin: 120px 0 0 585px;
+}
+.category_button {
+    display: flex;
+    margin: 40px 0 0 211.5px;
+}
+.b1 {
+    margin-right: 16px;
+    width: 103px;
+    height: 39px;
+    font-family: DM Sans-Regular;
+    font-size: 18px;
+    border: none;
+    background: #F3F4F8;
+    border-radius: 55px;
+}
+.b1:active,
+.b1:focus {
+    background: #EC5A33;
+}
+.block_main3 {
+    display: flex;
+}
+.estimation {
+    display: flex;
+}
+.stars {
+    margin: 10px 0 0 130px;
+    width: 108px;
+    height: 20px;
+}
+.stars1 {
+    margin: 10px 0 0 32px;
+    width: 108px;
+    height: 20px;
+}
+.review {
+    font-family: DM Sans-Regular;
+    font-size: 20px;
+    color: #979EA9;
+    margin: 10px 0 0 16px;
+    white-space: nowrap;
+}
+.block8_img {
+    width: 372px;
+    height: 319px;
+    background: linear-gradient(162.7deg, rgba(241, 242, 246, 0.05) -2.13%, #F6F7FB 85.44%);
+    margin: 40px 0 0 130px;
+}
+.jacket {
+    margin: 40px 0 0 66px;
+}
+.block8_txt {
+    width: 372px;
+    height: 145px;
+}
+.txt1 {
+    font-family: DM Sans-Medium;
+    font-size: 22px;
+    margin: 20px 0 0 130px;
+}
+.price1 {
+    font-family: DM Sans-Bold;
+    font-size: 20px;
+    margin: 10px 0 0 130px;
+    color: #838A95;
+}
+.block9_txt {
+    width: 372px;
+    height: 145px;
+    white-space: nowrap;
+}
+.block9_img {
+    width: 372px;
+    height: 319px;
+    background: linear-gradient(162.7deg, rgba(241, 242, 246, 0.05) -2.13%, #F6F7FB 85.44%);
+    margin: 32px 0 0 130px;
+}
+.shirt {
+    margin: 40px 0 0 74.51px;
+}
+.txt2 {
+    margin: 20px 0 0 130px;
+    font-family: DM Sans-Medium;
+    font-size: 22px;
+}
+.price2 {
+    font-family: DM Sans-Bold;
+    font-size: 20px;
+    margin: 10px 0 0 130px;
+    color: #838A95;
+}
+.block10_img {
+    width: 372px;
+    height: 319px;
+    background: linear-gradient(162.7deg, rgba(241, 242, 246, 0.05) -2.13%, #F6F7FB 85.44%);
+    margin: 40px 0 0 32px;
+}
+.sweater {
+    margin: 41px 0 0 80px;
+}
+.block10_txt {
+    width: 372px;
+    height: 145px;
+}
+.txt3 {
+    margin: 20px 0 0 32px;
+    font-family: DM Sans-Medium;
+    font-size: 22px;
+}
+.price3 {
+    font-family: DM Sans-Bold;
+    font-size: 20px;
+    margin: 10px 0 0 32px;
+    color: #838A95;
+}
+.block11_img {
+    width: 372px;
+    height: 319px;
+    background: linear-gradient(162.7deg, rgba(241, 242, 246, 0.05) -2.13%, #F6F7FB 85.44%);
+    margin: 32px 0 0 32px;
+}
+.sandals {
+    margin: 60px 0 0 65px;
+}
+.block11_txt {
+    width: 372px;
+    height: 145px;
+}
+.txt4 {
+    margin: 20px 0 0 32px;
+    font-family: DM Sans-Medium;
+    font-size: 22px;
+}
+.price4 {
+    font-family: DM Sans-Bold;
+    font-size: 20px;
+    margin: 10px 0 0 32px;
+    color: #838A95;
+}
+.cl3 {
+    display: flex;
+    margin-left: 32px;
+}
+.block12_img {
+    width: 372px;
+    height: 319px;
+    background: linear-gradient(162.7deg, rgba(241, 242, 246, 0.05) -2.13%, #F6F7FB 85.44%);
+    margin: 40px 0 0 32px;
+}
+.watch {
+    margin: 67px 0 0 129px;
+}
+.block12_txt {
+    width: 372px;
+    height: 145px;
+}
+.txt5 {
+    font-family: DM Sans-Medium;
+    font-size: 22px;
+    margin: 20px 0 0 32px;
+}
+.price5 {
+    font-family: DM Sans-Bold;
+    font-size: 20px;
+    margin: 10px 0 0 32px;
+    color: #838A95;
+}
+.block13 {
+    margin-top: 525px;
+    position: absolute;
+}
+.block13_img {
+    width: 372px;
+    height: 319px;
+    background: linear-gradient(162.7deg, rgba(241, 242, 246, 0.05) -2.13%, #F6F7FB 85.44%);
+    margin: 32px 0 0 32px;
+}
+.cap {
+    margin: 55px 0 0 93px;
+}
+.block13_txt {
+    width: 372px;
+    height: 145px;
+}
+.txt6 {
+    margin: 20px 0 0 32px;
+    font-family: DM Sans-Medium;
+    font-size: 22px;
+}
+.price6 {
+    font-family: DM Sans-Bold;
+    font-size: 20px;
+    margin: 10px 0 0 32px;
+    color: #838A95;
+}
+.gallery {
+    font-family: Abril_Fatface;
+    font-size: 45px;
+    margin: 120px 0 0 571px;
+}
+.gallery1 {
+    font-family: DM Sans-Regular;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #979EA9;
+    text-align: center;
+}
+.cl4 {
+    display: flex;
+    margin-left: 130px;
+}
+.recorder {
+    margin: 40px 0 130px;
+}
+.pair {
+    margin: 40px 0 0 32px;
+    width: 271px;
+    height: 271px;
+}
+.chair {
+    margin: 40px 0 0 32px;
+}
+.coffee {
+    margin: 32px 0 0 32px;
+}
+.hat {
+    margin: 32px 0 0 32px;
+}
+.footer {
+    width: 1440px;
+    height: 447px;
+    margin-top: 120px;
+    background-color: #222222;
+}
+.footer_block1 {
+    display: flex;
+}
+.footer_logo {
+    display: flex;
+}
+.block15 {
+    margin-left: 130.5px;
+}
+.vectorF {
+    margin-top: 80px;
+    width: 40.71px;
+    height: 40.71px;
+}
+.logoF {
+    font-family: DM Sans-Medium;
+    color: #FFFFFF;
+    font-size: 30.53px;
+    margin: 82px 0 0 16.79px;
+}
+.logoF_txt {
+    font-family: DM Sans-Regular;
+    color: #FFFFFF;
+    margin-top: 23px;
+    line-height: 32px;
+}
+.messenger1 {
+    margin-top: 23px;
+}
+.messenger {
+    margin: 23px 0 0 20px;
+}
+.block16 {
+    margin-left: 121px;
+    color: #FFFFFF;
+    margin-top: 80px;
+    width: 106px;
+}
+.navigation {
+    font-family: DM Sans-Medium;
+    font-size: 20px;
+    margin-bottom: 27px;
+}
+.navigation_txt {
+    font-family: DM Sans-Regular;
+    line-height: 42px;
+}
+.block18 {
+    margin: 80px 0 0 121px;
+    color: #FFFFFF;
+}
+.navigation1_txt {
+    font-family: DM Sans-Regular;
+    line-height: 24px;
+}
+.email {
+    margin-top: 22px;
+    font-family: DM Sans-Bold;
+    font-size: 14px;
+    display: flex;
+}
+.arrow{
+    margin-left: 166px;
+    width: 10.67px;
+    height: 10.67px;
+}
+.line {
+	margin: 16px 0;
+	border: none;
+	border-top: 2px solid #FFFFFF;
+}
+.subcribe {
+    width: 288px;
+    height: 40px;
+    background-color: #EC5A33;
+    color: #FFFFFF;
+    font-family: DM Sans-Bold;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+    border: none;
+    border-radius: 3px;
+}
+.arrow_btn {
+    margin-left: 8px;
+}
+.footer_block2 {
+    width: 1180px;    
+    margin-left: 130px;
+}
+.line2 {
+    margin: 30px 0;
+	border: none;
+	border-top: 0.8px solid #838A95;
+}
+.block19 {
+    display: flex;
+    margin-top: 30px;    
+    font-family: DM Sans-Regular;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.contact {
+    margin-left: 720px;
+}
+.terms {
+    margin: 0 20px 0 20px
+}
+
